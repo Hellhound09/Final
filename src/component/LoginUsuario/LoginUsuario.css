@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700&display=swap');
+:root{
+    --clippy: polygon(0 0, 0 100%, 0 0);
+}
+.contenedor{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    place-content: center;
+    background-image: url("https://i.pinimg.com/originals/d7/d8/db/d7d8dbf3811c797e5d2cc364743ae3a7.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.Forget{
+    text-decoration: none;
+    display: grid;
+    width: auto;
+    place-content: Center   ;
+    font-size: small;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.Rememberme{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+.formulario{
+    border:1px solid rgba(245, 245, 245, 0.247);
+    backdrop-filter: blur(20px);
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.034);
+    display: grid ;
+    grid-template-rows:80px 80px 60px ;
+    grid-template-columns: 1fr;
+    place-content: center ;
+    padding: 20px;
+    place-items: center;
+    color: white;
+    text-align: lef;
+    font-family: 'Kanit', sans-serif;
+}
+
+.formulario div{
+display: grid;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+.inputs{
+    box-sizing: border-box;
+    border-radius: 20px;
+    border:none;
+    background-color: rgba(33, 10, 54, 0.281);
+    color: beige;
+    height: 30px;
+    width: 170px;
+    padding: 10px;
+    outline: none;
+    text-align: center;
+
+}
+.Return{
+    position:absolute;
+    background-color: transparent;
+    border: none;
+    min-width: 10vh;
+    padding: 25px 25px ;
+    
+}
+.boton{
+    box-sizing: border-box;
+    border-radius: 20px;
+    border:none;
+    background-color: rgb(255 120 133);
+    color: white;
+    height: 30px;
+    width: 170px;
+    outline: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: larger;
+    cursor: pointer;
+}
+
+
+.texto{
+    color: white;
+    font-size: 25px;
+}

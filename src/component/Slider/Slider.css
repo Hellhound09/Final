@@ -1,0 +1,23 @@
+.item{
+    min-height: 40rem;
+    min-width: 30rem ;
+    padding: 40px;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    pointer-events: none;
+}
+.Slider{
+    background: linear-gradient(137deg, rgba(212, 15, 157, 1) 50%, rgba(251, 17, 125, 1) 65%);
+    display: flex;
+    
+}
+.Slider-container{
+    cursor: grab;
+    overflow: hidden;
+    margin: 5% 20%;
+    background: linear-gradient(137deg, rgba(251, 17, 125, 1) 50%, rgba(212, 15, 157, 1) 65%);
+    border-radius: 2rem;
+}

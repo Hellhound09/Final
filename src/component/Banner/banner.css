@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700&display=swap');
+.bannerContenedor {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    padding: 2rem;
+    background-image: url("../public/banner.jfif");
+    background-position: center;
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;
+    overflow: hidden;
+    position: relative;
+    grid-template-columns: min-content;
+}
+
+.jumbo {
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    gap: 1.4rem;
+    color: white;
+    background-color: #fafafa10;
+    padding: 3rem ;
+    border-radius: 20px;
+    text-align: center;
+    backdrop-filter: blur(0.4rem);
+    box-shadow: 8px 8px 22px 0px black ;
+    align-items: center;
+    grid-auto-rows: max-content;
+    position: relative;
+    left: 150px;
+
+}
+
+.jumbo h3 {
+    font-size: 2rem;
+}
+
+.jumbo button {
+    font-size: 1.2rem;
+    padding: 1rem 1.5rem;
+    width: max-content;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(137deg, rgba(212, 15, 157, 1) 50%, rgba(251, 17, 125, 1) 65%);
+    cursor: pointer;
+    box-shadow: 8px 8px 22px 0px rgba(0, 0, 0, 0.3);
+    font-family: 'Kanit', sans-serif;
+    font-size: large;
+}
+
+.jumbo button:hover {
+    background: #555;
+    color: white;
+}
+
+.jumbo button:active {
+    background: #333;
+    color: white;
+}
